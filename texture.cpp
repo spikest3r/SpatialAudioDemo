@@ -1,5 +1,5 @@
 #include "texture.h"
-#include <glad.h>
+#include <glad/glad.h>
 #include "stb_image.h"
 
 Texture::Texture(const char* fileName, bool* success) {

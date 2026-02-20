@@ -2,7 +2,7 @@
 #include "texture.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-#include <glad.h>
+#include <glad/glad.h>
 
 GameObject::GameObject(Model* m, const char* textureFile) {
 	model = *m;
